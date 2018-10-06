@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Dark Messenger",
+    "version": "1.0",
+    "description": "Darkify Messenger",
+    "icons":{
+        "48": "icons/dark_messenger.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.messenger.com/*"],
+            "css": ["styles.css"]
+        }
+    ]
+}
